@@ -11,7 +11,7 @@ class CalculationsController < ApplicationController
     # ================================================================================
 
 
-    @word_count = @text.split.count
+    @word_count = @text.split.count #hi there
 
     @character_count_with_spaces = @text.length
 
